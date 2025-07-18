@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Trucking Website</title>
+  </head>
+  <body>
+    <header>
+      <div class="container navbar-container">
+        <a href="#" class="logo-link"><h1 class="navbar-logo">Buttar Trucking</h1></a>
+        <button class="nav-toggle" id="navToggle" aria-label="Open navigation menu" aria-controls="navbar" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <nav id="navbar" class="navbar" role="navigation" aria-label="Main navigation">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+
+        <h2>Your Trusted Trucking Partner</h2>
+        <p>Reliable, On-Time, and Professional Trucking Services</p>
+ 
+     
+      </div>
+      <form class="hero-btn">
+        <a href="#contact" class="cta-btn">Get in Touch</a>
+      </form>
+    </section>
+    <section id="about">
+      <h2 class="h2-txt">About Us</h2>
+      <div class="container about-services">
+        <div class="service-row">
+          <div class="service-img service-img-1"></div>
+          <div class="service-text">
+            <h3>Long Haul Trucking</h3>
+            <p>We provide reliable long-distance transportation for your goods, ensuring timely and safe delivery across the country.</p>
+          </div>
+        </div>
+        <div class="service-row reverse">
+          <div class="service-img service-img-2"></div>
+          <div class="service-text">
+            <h3>Local Deliveries</h3>
+            <p>Our local delivery service is fast and efficient, perfect for businesses needing quick turnaround within the city or region.</p>
+          </div>
+        </div>
+        <div class="service-row">
+          <div class="service-img service-img-3"></div>
+          <div class="service-text">
+            <h3>Logistics Solutions</h3>
+            <p>We offer tailored logistics solutions to optimize your supply chain and streamline your operations.</p>
+          </div>
+        </div>
+        <div class="service-row reverse">
+          <div class="service-img service-img-4"></div>
+          <div class="service-text">
+            <h3>24/7 Customer Support</h3>
+            <p>Our support team is available around the clock to assist you with any questions or concerns.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2 class="h2-txt">Contact Us</h2>
+      <div class="container">
+        <div class="contact-flex">
+          <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit" class="cta-btn">Send Message</button>
+          </form>
+          <div class="divider"></div>
+          <div class="contact-info">
+            <p><strong>Email:</strong> info@majidtrucking.com</p>
+            <p><strong>Phone:</strong> +1 234 567 8900</p>
+            <p><strong>Address:</strong> 123 Main St, Your City, Country</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2024 Buttar Trucking. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
